@@ -1,0 +1,110 @@
+
+
+:root{
+
+    --background: #FFFF;
+    --text: #000000;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Body{
+
+    background-color: var(--background);
+    color: var(--text);
+   
+
+
+}
+
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+
+
+.Header-button {
+
+    padding: 0.8rem;
+}
+
+
+.Main{
+
+    display: flex;
+    flex-direction: column;
+    height:90vh;
+    align-items: center;
+    gap:1rem;
+    padding: 2rem;
+
+}
+
+
+.Main-product{
+
+    display: flex;
+    padding: 2rem;
+}
+
+
+
+
+
+.Main-img{
+    width: 35%;
+}
+
+
+
+
+
+.Main-nameProduct{
+
+    font-size: 24px;
+    
+
+}
+
+
+
+
+
+.Main-button{
+    background-color: var(--text);
+    color: var(--background);
+    padding: 0.8rem;
+}
+
+
+
+.Footer{
+
+    display: flex;
+    gap: 3rem;
+    padding: 0 4rem;
+    background-color: #e7e7e7;
+
+}
+
+
+
+
+
+
+.Footer-button{
+    display: flex;
+    flex-direction: column;
+    padding:2rem;
+    border: none;
+    background:none;
+}
